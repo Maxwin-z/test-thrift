@@ -1,0 +1,29 @@
+{
+    "name": "test-thrift",
+    "version": "1.0.0",
+    "description": "test node thrift",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "thrift": "^0.9.3"
+    },
+    "devDependencies": {
+        "babel-eslint": "^5.0.0",
+        "babel-preset-es2015": "^6.5.0",
+        "gulp": "^3.9.1",
+        "gulp-babel": "^6.1.2",
+        "gulp-empty": "^0.1.1",
+        "gulp-plumber": "^1.1.0",
+        "gulp-watch": "^4.3.5",
+        "yargs": "^4.1.0"
+    },
+    "babel": {
+        "presets": [
+            "es2015"
+        ]
+    }
+}
